@@ -89,6 +89,8 @@ We are using [node-pre-gyp](https://github.com/mapbox/node-pre-gyp) to compile a
 
 This assumes you have everything on your system necessary to compile ANY native module for Node.js. This may not be the case, though, so please ensure the following are true for your system before filing an issue about "Does not install". For all operatings systems, please ensure you have Python 2.x installed AND not 3.0, node-gyp (what we use to compile) requires Python 2.x.
 
+In case you work with nw.js (former: node-webkit) you want to use the according build tools [nw-gyp] (https://github.com/nwjs/nw-gyp) instead of [node-pre-gyp]. It adopts for the different platform, but keeps the way of work and commands the same.
+
 #### Windows
 
  * Windows 7, Windows 8.1, and Windows 10 are supported.
